@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = MapViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 20) {
+            List(viewModel.dataToView, id: \.self) { item in
+                Text(item)
+            }
+        }
+        .font(.title)
+        .onAppear() {
+            viewModel.fetchData()
+        }
     }
 }
 

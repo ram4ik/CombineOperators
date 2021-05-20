@@ -11,6 +11,7 @@
 		95F6953D265628D800DD9294 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6953C265628D800DD9294 /* ContentView.swift */; };
 		95F6953F265628D800DD9294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F6953E265628D800DD9294 /* Assets.xcassets */; };
 		95F69542265628D800DD9294 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F69541265628D800DD9294 /* Preview Assets.xcassets */; };
+		95F6954A265628FE00DD9294 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F69549265628FE00DD9294 /* MapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		95F6953E265628D800DD9294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F69541265628D800DD9294 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95F69543265628D800DD9294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F69549265628FE00DD9294 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				95F6953A265628D800DD9294 /* CombineOperatorsApp.swift */,
 				95F6953C265628D800DD9294 /* ContentView.swift */,
+				95F69549265628FE00DD9294 /* MapViewModel.swift */,
 				95F6953E265628D800DD9294 /* Assets.xcassets */,
 				95F69543265628D800DD9294 /* Info.plist */,
 				95F69540265628D800DD9294 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				95F6953D265628D800DD9294 /* ContentView.swift in Sources */,
 				95F6953B265628D800DD9294 /* CombineOperatorsApp.swift in Sources */,
+				95F6954A265628FE00DD9294 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
